@@ -1,0 +1,23 @@
+# Local .terraform directories
+.terraform/
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+.terraform.lock.hcl
+
+# vscode files
+.vscode/
+
+.DS_Store
+
+# zip
+*.zip
+
+# remove terraform states
+*.terraform*
+*.tfstate*

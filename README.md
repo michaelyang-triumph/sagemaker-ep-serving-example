@@ -1,0 +1,2 @@
+# Terraform-Lambda
+In this repository you can find all the code I used for [my tutorial](https://vincentdeborger.be/deploying-lambda-api-gateway-using-terraform/) on how to deploy Lambda functions with an API gateway using Terraform.
