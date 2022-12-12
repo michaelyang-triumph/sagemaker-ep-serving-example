@@ -1,12 +1,15 @@
 import os
-import io
 import boto3
 import json
-import csv
 import logging
 
 # grab environment variables
+# endpoint name environment variable will not be needed in tbp's scenario
+# name of the endpoint would be {client_name}-{model_name}
+# client name would be in the request payload which will be parsed
+# model name is a environment variable
 ENDPOINT_NAME = os.environ['ENDPOINT_NAME']
+MODEL_NAME = os.environ['MODEL_NAME']
 LOG_LEVEL     = os.environ['LOG_LEVEL']
 
 # set logger

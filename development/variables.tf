@@ -15,7 +15,7 @@ variable "log_level" {
 
 variable "model_name" {
   description = "The name of model endpoint is serving"
-  default     = "test"
+  default     = "document"
 }
 
 variable "model_endpoint_name" {

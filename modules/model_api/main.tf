@@ -30,6 +30,7 @@ module "model_serving_lambda" {
   }]
   environment_variables = {
     ENDPOINT_NAME = var.model_endpoint_name
+    MODEL_NAME    = var.model_name
     LOG_LEVEL     = var.log_level
   }
 
